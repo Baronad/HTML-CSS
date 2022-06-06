@@ -1,0 +1,101 @@
+/* länkar bilden till webbsidan även genom att sätta background-image till url */
+
+html {
+    margin: 40px;
+    padding: 0px;
+    background-image: url(Sno.jpg);
+    background-position: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Sno.jpg);
+    background-position: center;
+}
+
+.box {
+    background-color: azure;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* ger width auto så att den oxå blir responsiv, här kunde jag använt mig av % men valde att inte göra det eftersom att då blir procenten till hela sidan när jag endast ville ha procenten i en box */
+
+.Sponsor-showing {
+    height: 80px;
+    width: auto;
+    /*border: 8px solid blue; */
+}
+
+.Footer {
+    height: 80px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    margin-top: 10px;
+}
+
+.sponsors-text {
+    height: 310px;
+}
+
+.navigation {
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.center {
+    padding: 25px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    border-radius: 10px;
+    display: block;
+    color: teal;
+    text-align: center;
+    padding:14px 16px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+/* gjort så att texten förändrar färg när man hovrar över den */
+
+a:hover {
+    text-decoration: none;
+    color: #F1C40F;
+}
+
+/* gjort så att sidan man är på är highlightad i en box */ 
+
+a:active {
+    text-decoration: none;
+    color: #F1C40F;
+}
+
+.active {
+    background-color: darkcyan;
+    color: coral
+}
+
+.center {
+    padding: 25px 0;
+}

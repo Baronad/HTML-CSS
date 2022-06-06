@@ -1,0 +1,88 @@
+/* background position center för att bilden blev skev när jag hade det normalt */
+
+html {
+    margin: 40px;
+    background-image: url(Sno.jpg);
+    background-position: center;
+}
+
+.box {
+    background-color: azure;
+    border-radius: 10px;
+   /* border: 8px solid blue; */
+}
+
+
+/* avståndet till botten blir 10px */
+
+.navigation {
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.Footer {
+    height: 75px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.center {
+    padding: 25px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+/* padding 14px 16px så att det blir det angivna mellanrummet emellan */
+
+li a {
+    border-radius: 10px;
+    display: block;
+    color: teal;
+    text-align: center;
+    padding:14px 16px;
+}
+
+.responsive {
+    border-radius: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F1C40F;
+}
+
+a:active {
+    text-decoration: none;
+    color: #F1C40F;
+}
+
+.active {
+    background-color: darkcyan;
+    color: coral
+}
+
+/* width 100% så att den blir responsiv med sidan */
+
+.img {
+    width: 100%
+}
